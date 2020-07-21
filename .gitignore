@@ -1,0 +1,31 @@
+# Unity Files / Folders Generated #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ibrary/
+*.pidb.meta
+sysinfo.txt
+
+# Visual Studio Generated #
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+build/
+.vs/
+*.csproj
+*.unityproj
+*.suo
+*.sln
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Mac Files #
+*.DS_store
+
+# Specific Files #
