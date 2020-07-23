@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement>
+        <Style src="ImagesDownloaderUI.uss" />
+        <ui:Label text="Image Downloader" name="Header" style="-unity-font-style: bold; font-size: 14px; -unity-text-align: middle-center;" />
+        <ui:TextField label="Image Url" name="Url" text="Enter an url..." />
+        <ui:Button text="Download" name="Download" />
+        <uie:ProgressBar title="0%" name="DownloadProgression" style="display: none;" />
+        <uie:ObjectField label="Result" name="Result" allow-scene-objects="false" style="display: none;" />
+    </ui:VisualElement>
+    <ui:Button text="Save" name="Save" style="display: none;">
+        <Style src="ImagesDownloaderUI.uss" />
+    </ui:Button>
+</ui:UXML>
